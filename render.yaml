@@ -8,8 +8,8 @@ services:
     envVars:
       - key: MEILI_ENV
         value: production
-      - key: 0.0.0.0:10000
-        value: 0.0.0.0:7700
+      - key: MEILI_HTTP_ADDR
+        value: 0.0.0.0:10000
       - key: MEILI_DB_PATH
         value: /meili_data/data.ms
       - key: MEILI_NO_ANALYTICS
